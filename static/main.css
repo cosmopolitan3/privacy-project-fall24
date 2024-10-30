@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montserrat';
+   
+}
+
+.h1 {
+    padding: 15px;
+
+}
+
+
+.navbar {
+    background-color: #898989; /* Light background color */
+    font-family: 'Montserrat';
+    padding: 5px; /* Padding around the navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Adjust brand size */
+    font-weight: bold; /* Make it bold */
+}
+
+/* Navbar items styling */
+.navbar-nav .nav-item {
+    margin-left: 20px; /* Space between navbar items */
+}
+
+.nav-link {
+    color: #ffffff; /* Link color */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.nav-link:hover {
+    color: #d2d7dd; /* Darker color on hover */
+}
