@@ -1,13 +1,14 @@
 *{
     font-family: 'Montserrat';
-   
+    text-align: center;
 }
 
 .h1 {
     padding: 15px;
-
 }
-
+.container {
+    padding: 5px;
+}
 
 .navbar {
     background-color: #898989; /* Light background color */
