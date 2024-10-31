@@ -15,9 +15,21 @@ def home():
 def about():
     return render_template('about.html')  
 
-@app.route('/cases')
-def services():
-    return render_template('cases.html') 
+@app.route('/case1')
+def case1():
+    return render_template('case1.html')  # Create a case1.html template
+
+@app.route('/case2')
+def case2():
+    return render_template('case2.html')  # Create a case2.html template
+
+@app.route('/case3')
+def case3():
+    return render_template('case3.html')  # Create a case3.html template
+
+@app.route('/case4')
+def case4():
+    return render_template('case4.html')
 
 @app.route('/resources')
 def contact():
