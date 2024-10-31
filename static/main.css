@@ -34,3 +34,7 @@
 .nav-link:hover {
     color: #d2d7dd; /* Darker color on hover */
 }
+
+.video {
+    padding: 30px;
+}
