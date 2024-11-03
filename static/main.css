@@ -1,24 +1,36 @@
-*{
+.container{
     font-family: 'Montserrat';
     text-align: center;
+    padding:5px;
 }
 
-.h1 {
-    padding: 15px;
+h1 {
+    padding: 10px;
+    font-weight:bolder;
 }
-.container {
-    padding: 5px;
+
+h2{
+    padding-top:15px;
 }
+
+h3{
+    text-decoration: underline;
+}
+
+p {
+    padding-bottom:10px;
+}
+
 
 .navbar {
-    background-color: #898989; /* Light background color */
+    background-color: #898989; 
     font-family: 'Montserrat';
-    padding: 5px; /* Padding around the navbar */
+    padding: 5px; 
 }
 
 .navbar-brand {
-    font-size: 1.5rem; /* Adjust brand size */
-    font-weight: bold; /* Make it bold */
+    font-size: 1.5rem; 
+    font-weight: bold; 
 }
 
 /* Navbar items styling */
