@@ -50,3 +50,7 @@ p {
 .video {
     padding: 30px;
 }
+
+#sources{
+    text-align: left;
+}

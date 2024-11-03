@@ -1,4 +1,10 @@
 
-title {
-    font-size:1em;
+#header {
+    font-size:3.5em;
+    font-weight: bolder;
+    padding-bottom:5px;
+}
+#subtext {
+    font-size: 25px;
+    padding-bottom: 15px;
 }
