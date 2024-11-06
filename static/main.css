@@ -3,10 +3,14 @@
     text-align: center;
     padding:5px;
 }
+#subtext{
+    text-decoration: none;
+}
 
 h1 {
-    padding: 10px;
+    padding-top: 20px;
     font-weight:bolder;
+    padding-bottom:5px;
 }
 
 h2 {
