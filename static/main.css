@@ -74,7 +74,6 @@ h5 {
     margin-bottom: 20px;
 }
 
-
 a {
     text-decoration: none;;
     font-weight: bold;
@@ -86,6 +85,58 @@ a:hover {
     color: #0974ee;
     
 }
+#zimbabwe {
+    display: flex;
+    align-items: flex-start; 
+    padding:20px;
+    gap: 20px; 
+}
+
+#kenya {
+    display: flex;
+    align-items: flex-start; 
+    padding:20px;
+    gap: 20px; 
+}
+
+#left{
+    text-align: left;
+    padding:10px;
+    max-width: 60%;
+}
+#right{
+    text-align: right;
+    padding:10px;
+    max-width: 60%;
+}
+
+
+img {
+    max-width: 40%; 
+    height: auto;
+}
+
+#argentina {
+    display: flex;
+    align-items: center;
+    padding:20px;
+    gap: 20px; 
+}
+#argentina h2{
+    text-align:center;
+}
+#brazil h2{
+    text-align:center;
+}
+
+#brazil {
+    display: flex;
+    align-items: center;
+    padding:20px;
+    gap: 20px; 
+}
+
+
 
 
 
