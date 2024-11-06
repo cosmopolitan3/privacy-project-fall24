@@ -10,16 +10,63 @@
 <div id="header">Data Colonialism
     
 </div>
+<h2>Exploring the Global Exploitation of Data</h2>
 
 <img src="https://images.squarespace-cdn.com/content/v1/5b4f63e14eddec374f416232/1613599267790-FH7D2N1OC0DNND1QPFFN/data-economics-777x437.jpg?format=1500w" alt="Home Image" class="img-fluid rounded" style="max-width: 600px;">
+<p class="home_text">Understanding how the control and extraction of data from marginalized communities around the world mirrors historical forms of colonialism.</p>
+
+<div class="container mt-5">
+    <h3>What is Data Colonialism?</h3>
+    <p>Data colonialism refers to the exploitation and control of data from historically oppressed and marginalized communities, akin to the exploitation of resources during the colonial era. In today's digital world, powerful entities extract data from individuals, often without their informed consent or adequate compensation, perpetuating cycles of inequality and harm.</p>
+
+</div>
 
 <div class="container mt-4">
-    <h5> Case Studies:</h5>
-    <ul class="list-unstyled">
-        <li><a href="{{ url_for('case1') }}">The New Scramble for Africa</a></li>
-        <li><a href="{{ url_for('case2') }}">Minorities and Migration</a></li>
-        <li><a href="{{ url_for('case3') }}">Latin America</a></li>
-        <li><a href="{{ url_for('case4') }}">Indigenous Groups in Oceania</a></li>
-    </ul>
+    <h3>Featured Case Studies</h3>
+    <p>Our research focuses on four key regions that demonstrate the real-world impact of data colonialism across different regions of the world:</p>
+    <div class="privacyMap">
+        <img src="https://www.dbxuk.com/images/blogs/blogs-2023/data-protection-around-the-world-map.png" alt="privacyMap" class="img-fluid rounded" style="max-width: 600px;">
+    </div>
+    
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{ url_for('case1') }}" class="case-study-link">The New Scramble for Africa</a></h4>
+                    <p class="card-text">The extraction of data from African countries by global tech companies.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{ url_for('case2') }}" class="case-study-link">Minorities and Migration</a></h4>
+                    <p class="card-text">How data is collected and used to control the lives of migrants and marginalized groups.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{ url_for('case3') }}" class="case-study-link">Latin America</a></h4>
+                    <p class="card-text">The ways data colonialism impacts socio-political dynamics in Latin American nations.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="{{ url_for('case4') }}" class="case-study-link">Indigenous Groups in Oceania</a></h4>
+                    <p class="card-text">The exploitation of data from Indigenous communities and its consequences.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
 {% endblock %}

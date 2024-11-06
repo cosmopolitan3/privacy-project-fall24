@@ -1,12 +1,12 @@
 .container{
     font-family: 'Montserrat';
     text-align: center;
-    padding:5px;
+    padding:10px;
 }
 
 
 h1 {
-    padding-top: 20px;
+    padding-top: 10px;
     font-weight:bolder;
     padding-bottom:5px;
 }
@@ -136,7 +136,25 @@ img {
     gap: 20px; 
 }
 
+.home_text {
+    font-style: italic;
+}
 
+.case-study-link {
+    font-size: 1rem;  /* Default size for paragraphs */
+    text-decoration: none;  /* Optional: Remove underline from links */
+}
 
-
+.privacyMap {
+    align-items: center;
+    padding:20px;
+    gap: 20px; 
+}
+.card {
+    border-color: #0974ee
+}
+.card-text {
+    font-style: italic;
+    font-size: small;
+}
 
