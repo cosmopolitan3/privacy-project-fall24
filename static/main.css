@@ -3,9 +3,7 @@
     text-align: center;
     padding:5px;
 }
-#subtext{
-    text-decoration: none;
-}
+
 
 h1 {
     padding-top: 20px;
@@ -23,7 +21,6 @@ p {
 }
 
 
-
 .navbar {
     background: linear-gradient(to right, #0992ee, #182aef);
     font-family: 'Montserrat';
@@ -31,6 +28,7 @@ p {
     color: white !important;
     border-bottom: 4px solid #fff;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom:15px;
     
 }
 
@@ -71,8 +69,9 @@ h3 {
 h5 {
     font-size: 1.8rem;
     color: #182aef;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 a {
