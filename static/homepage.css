@@ -1,14 +1,48 @@
 
 #header {
-    font-size:3.8em;
+    font-size:4em;
     font-weight: bolder;
     color:black;
-    margin-bottom:15px;
+    padding-bottom: 20px;
 }
 
 li{
     font-size:1.2em;
 }
 
+.home_text {
+    font-style: italic;
+}
+.privacyMap {
+    align-items: center;
+    margin:35px; 
+}
 
+.card {
+    border-color: #0974ee;
+    height: 100%; /* Make each card occupy full height in its column */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced */
+    align-items: stretch; /* Makes cards uniform in height */
+}
+.card-body {
+    flex-grow: 1; /* Makes the card body take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically within the card */
+    align-items: center; /* Center content horizontally within the card */
+    text-align: center; /* Align text to the center */
+}
+.card-text {
+    font-style: italic;
+    font-size: small;
+}
+.case-study-link {
+    font-size: 1rem;  
+    transition: 0.3s;
 
+}
+h4 {
+    padding-bottom: 15px;
+}
