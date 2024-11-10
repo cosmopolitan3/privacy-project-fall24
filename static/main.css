@@ -84,19 +84,13 @@ a:hover {
     color: #0974ee;
     
 }
-#zimbabwe {
+#country {
     display: flex;
     align-items: flex-start; 
     padding:20px;
     gap: 20px; 
 }
 
-#kenya {
-    display: flex;
-    align-items: flex-start; 
-    padding:20px;
-    gap: 20px; 
-}
 
 #left{
     text-align: left;
@@ -109,26 +103,26 @@ a:hover {
     max-width: 60%;
 }
 
-
 img {
     max-width: 40%; 
     height: auto;
 }
 
-#argentina {
+#left-text {
     display: flex;
     align-items: center;
     padding:20px;
     gap: 20px; 
 }
-#argentina h2{
-    text-align:center;
+#left-text h2{
+    text-align: center;
 }
-#brazil h2{
+
+#right-text h2{
     text-align:center;
 }
 
-#brazil {
+#right-text {
     display: flex;
     align-items: center;
     padding:20px;
