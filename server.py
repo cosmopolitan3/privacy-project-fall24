@@ -35,6 +35,10 @@ def case4():
 def contact():
     return render_template('resources.html')
 
+@app.route('/ahead')
+def ahead():
+    return render_template('ahead.html')
+
 
 if __name__ == '__main__':
    app.run(debug = True)
