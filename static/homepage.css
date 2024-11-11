@@ -1,9 +1,9 @@
 
 #header {
-    font-size:4em;
-    font-weight: bolder;
+    font-size:4.5em;
+    font-weight:bolder;
     color:black;
-    padding-bottom: 20px;
+    padding-bottom:5px;
 }
 
 li{
@@ -20,19 +20,18 @@ li{
 
 .card {
     border-color: #0974ee;
-    height: 100%; /* Make each card occupy full height in its column */
+    height: 100%; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures content is spaced */
-    align-items: stretch; /* Makes cards uniform in height */
+    justify-content: space-between; 
+    align-items: stretch; 
 }
 .card-body {
-    flex-grow: 1; /* Makes the card body take up available space */
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center content vertically within the card */
-    align-items: center; /* Center content horizontally within the card */
-    text-align: center; /* Align text to the center */
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 .card-text {
     font-style: italic;
